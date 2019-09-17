@@ -1,7 +1,8 @@
 {
-  "name": "dialogflow-fulfillment",
+  "name": "dialogflow-fulfillment-ts",
   "description": "Dialogflow Fulfillment Library for Node.js",
   "main": "src/dialogflow-fulfillment.js",
+  "types": "src/index.d.ts",
   "version": "0.6.2",
   "license": "Apache-2.0",
   "author": "Google Inc.",
@@ -24,12 +25,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dialogflow/dialogflow-fulfillment-nodejs.git"
+    "url": "git+https://github.com/caian-org/dialogflow-fulfillment-ts"
   },
   "bugs": {
-    "url": "https://github.com/dialogflow/dialogflow-fulfillment-nodejs/issues"
+    "url": "https://github.com/caian-org/dialogflow-fulfillment-ts/issues"
   },
-  "homepage": "https://github.com/dialogflow/dialogflow-fulfillment-nodejs#readme",
+  "homepage": "https://github.com/caian-org/dialogflow-fulfillment-ts#readme",
   "keywords": [
     "dialogflow",
     "api.ai",
