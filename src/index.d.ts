@@ -108,7 +108,7 @@ declare module 'dialogflow-fulfillment-ts' {
     public readonly requestSource: string;
 
     /** Dialogflow original request object from detectIntent/query or platform integration (Google Assistant, Slack, etc.) in the request or null if no value */
-    public readonly originalRequest: object;
+    public readonly originalRequest: { [key: string]: any };
 
     /** Original user query as indicated by Dialogflow or null if no value */
     public readonly query: string;
